@@ -1,6 +1,8 @@
-// Versión inicial
-function saludar() {
-    console.log("Hola mundo");
+function sumar(a, b) 
+    return a + b;
 }
 
-saludar();
+let numero1 = 4;
+let numero2 = 2;
+
+console.log("La suma es: " + sumar(numero1, numero2));
